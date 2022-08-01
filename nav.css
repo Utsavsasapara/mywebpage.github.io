@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+/* navbar 1 start */
+.nav {
+    list-style-type: none;
+    text-align: right;
+    background-color: rgb(24, 23, 23);
+    color: whitesmoke;
+}
+.nav li a {
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+.nav li {
+    display: inline;
+}
+.nav li a:hover {
+    color: cyan;
+    background-color: black;
+}
+/* navbar 1 end */
+
+/* navbar 2 start */
+.nav1 {
+    list-style-type: none;
+    text-align: left;
+    background-color: rgb(24, 23, 23);
+    color: whitesmoke;
+}
+.nav1 li a {
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+.nav1 li {
+    display: inline;
+}
+.nav1 li a:hover {
+    color: cyan;
+    background-color: black;
+}
+/* navbar 2 end */
+
+/* navbar 3 start */
+.nav2 {
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(24, 23, 23);
+    color: whitesmoke;
+}
+.nav2 li a {
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+.nav2 li {
+    display: inline;
+}
+.nav2 li a:hover {
+    color: cyan;
+    background-color: black;
+}
+/* navbar 3 end */
+
+/* navbar 4 start */
+.navbar {
+    background-color: rgb(24, 23, 23);
+}
+.logo {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    display: inline-block;
+}
+.logo:hover {
+    color: rgb(139 217 217);
+}
+.nav3 {
+    list-style-type: none;
+    /* text-align: right; */
+    display: inline;
+    float: right;
+    /* margin-right: 10px; */
+}
+.nav3 li {
+    display: inline;
+}
+.nav3 li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+.nav3 li a:hover {
+    color: rgb(78, 236, 139);
+    text-decoration: none;
+    /* margin-left: 25px; */
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(78, 236, 139);
+}
+/* navbar 4 end */
