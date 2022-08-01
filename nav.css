@@ -102,4 +102,8 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .banner-img img{
+        width:350px;
+        padding: 20px;
+    }
 }
