@@ -98,4 +98,8 @@ body {
         display: block;
         font-size: 22px;
     }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
 }
