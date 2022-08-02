@@ -108,7 +108,6 @@ body {
 .box img {
     width: 250px;
     height: 250px;
-
 }
 
 .box-in {
@@ -117,6 +116,9 @@ body {
     text-align: center;
     border-radius: 10px;
 }
+.box-in:hover {
+    background-color: rgb(0, 174, 255);
+}
 
 .box-in p {
     font-size: 20px;
@@ -124,7 +126,7 @@ body {
 }
 
 .add-2 {
-    background-color: cornflowerblue;
+    background-color: rgb(24, 95, 226);
     border: 0;
     padding: 10px 15px;
     color: white;
@@ -140,6 +142,49 @@ body {
     text-decoration: none;
     color: white;
 }
+
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #55a2e5;
+
+}
+.foot-1, .foot-2, .foot-3 {
+    flex: 1;
+    color: whitesmoke;
+    margin: 50px;
+}
+.foot-1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.foot-1 ul li a{
+   text-decoration: none;
+   color:whitesmoke
+}
+.foot-1 ul li a:hover{
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+ }
+.foot-3 {
+    text-align: center;
+    padding-top: 30px;
+}
+.foot-3 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+ .foot-3 ul li{
+    display: inline;
+ }
+ .foot-3 ul li a img{
+    width: 50px;
+ }
+ 
 
 
 /* media  */
@@ -216,5 +261,11 @@ body {
     .container {
         display: flex;
         flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .foot-1, .foot-2, .foot-3 {
+        margin: 10px;
     }
 }
